@@ -8,7 +8,89 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+    
+	
+      <style>
+        
+        
+        body{
+            text-align: center;
+            background-color: rgb(204, 204, 204)
+
+        }
+
+        #playlist{
+            list-style-type: none;
+            background-color: rgb(255, 255, 255);
+            padding: 80px;
+            margin: 10%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: left !important;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+        
+        a{
+             color: black !important;
+           text-decoration: none !important ;
+       }
+
+       #vlc{
+        background-color: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 20%;
+            margin-top: 30px;
+
+            /* text-align: left !important; */
+            border-radius: 20px;
+            border: 2px solid black;
+
+        
+       }
+
+       audio, video{
+       /* margin: auto; */
+       width: 95%;
+       }
+
+       #song{
+        text-align: left;
+        margin-left: 5%;
+       }
+
+      </style>
+
+      <h1>My Playlist</h1>
+
+      <div id="">
+        <ul id="playlist" >
+            <li><a href="https://www.youtube.com/" target="_blank">Song 1</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Song 1</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Song 1</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Song 1</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Song 1</a></li>
+    
+          </ul>
+      </div>
+
+      <h2>Now Playing...</h2>
+
+      <div id="vlc">
+        <video controls>
+          <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4" >
+        </video>
+
+       
+        <h2>Mp3</h2>
+
+        <br>
+        <p id="song"><strong>Maan meri jaan</strong></p>
+
+        <audio src="https://www.pagalworld.com.se/files/download/id/64630" controls></audio>
+      </div>
+
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
